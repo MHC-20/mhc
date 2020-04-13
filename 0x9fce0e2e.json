@@ -1,5 +1,8 @@
 {
-	"car": "1768518260",
-	"plane": "428159217",
-	"boat": "1762719600"
+	"CAR": 1768518260,
+	"PLANE": 428159217,
+	"BOAT": 1762719600,
+	"ENABLE_EVENT_01": true,
+	"ENABLE_EVENT_02": false,
+	"STENCIL": 6.8
 }
