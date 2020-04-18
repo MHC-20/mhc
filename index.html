@@ -2,12 +2,14 @@
 <html>
   <head>
     <title>20</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
-    <p>20</p>
     <p id="12"></p>
 	<script>
-        document.getElementById("12").innerHTML = 5 + 6;
+         $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
+          document.getElementById("12").innerHTML = data 
+          });
 	</script>
   </body>
 </html>
